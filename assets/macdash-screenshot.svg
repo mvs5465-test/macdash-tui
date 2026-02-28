@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="macdash-tui dashboard screenshot">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <style>
+      .title { font: 700 18px Menlo, Monaco, "Courier New", monospace; fill: #f8fafc; }
+      .text { font: 15px Menlo, Monaco, "Courier New", monospace; fill: #e5e7eb; }
+      .muted { font: 14px Menlo, Monaco, "Courier New", monospace; fill: #94a3b8; }
+      .cyan { fill: #67e8f9; }
+      .green { fill: #86efac; }
+      .yellow { fill: #fde68a; }
+      .pink { fill: #f9a8d4; }
+      .frame { fill: #020617; stroke: #334155; stroke-width: 2; }
+      .panel { fill: rgba(15, 23, 42, 0.75); stroke: #475569; stroke-width: 2; }
+      .barbg { fill: #1e293b; }
+      .barcpu { fill: #22d3ee; }
+      .barmem { fill: #f59e0b; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg)" />
+  <rect x="40" y="34" width="1120" height="692" rx="18" class="frame" />
+  <rect x="40" y="34" width="1120" height="44" rx="18" fill="#111827" />
+  <circle cx="68" cy="56" r="7" fill="#fb7185" />
+  <circle cx="92" cy="56" r="7" fill="#fbbf24" />
+  <circle cx="116" cy="56" r="7" fill="#34d399" />
+  <text x="560" y="61" text-anchor="middle" class="muted">macdash.py</text>
+
+  <text x="72" y="112" class="title cyan">macdash-tui</text>
+  <text x="930" y="112" class="muted">2026-02-27 23:40:18</text>
+
+  <rect x="72" y="138" width="500" height="250" rx="10" class="panel" />
+  <rect x="628" y="138" width="500" height="250" rx="10" class="panel" />
+  <rect x="72" y="414" width="500" height="250" rx="10" class="panel" />
+  <rect x="628" y="414" width="500" height="250" rx="10" class="panel" />
+
+  <text x="94" y="166" class="title pink">CPU</text>
+  <text x="650" y="166" class="title pink">Memory</text>
+  <text x="94" y="442" class="title pink">GPU</text>
+  <text x="650" y="442" class="title pink">Network</text>
+
+  <text x="98" y="208" class="text cyan">User    24.6%</text>
+  <rect x="278" y="192" width="244" height="18" rx="4" class="barbg" />
+  <rect x="278" y="192" width="60" height="18" rx="4" class="barcpu" />
+
+  <text x="98" y="244" class="text yellow">System  15.6%</text>
+  <rect x="278" y="228" width="244" height="18" rx="4" class="barbg" />
+  <rect x="278" y="228" width="38" height="18" rx="4" fill="#fbbf24" />
+
+  <text x="98" y="280" class="text green">Idle    59.9%</text>
+  <rect x="278" y="264" width="244" height="18" rx="4" class="barbg" />
+  <rect x="278" y="264" width="146" height="18" rx="4" fill="#4ade80" />
+
+  <text x="98" y="326" class="text">Load avg: 5.17  4.92  4.38</text>
+
+  <text x="654" y="208" class="text yellow">Used      15.0 GB</text>
+  <rect x="852" y="192" width="244" height="18" rx="4" class="barbg" />
+  <rect x="852" y="192" width="241" height="18" rx="4" class="barmem" />
+  <text x="654" y="244" class="text">Free       146.0 MB</text>
+  <text x="654" y="280" class="text">App         9.8 GB</text>
+  <text x="654" y="316" class="text">Wired       3.2 GB</text>
+  <text x="654" y="352" class="text">Compr.      1.1 GB</text>
+
+  <text x="98" y="486" class="text cyan">Adapter: Apple M2</text>
+  <text x="98" y="532" class="text">Utilization unavailable via stable public</text>
+  <text x="98" y="560" class="text">macOS APIs.</text>
+  <text x="98" y="606" class="muted">This keeps the tool dependency-free.</text>
+
+  <text x="654" y="486" class="text cyan">Interface: en0</text>
+  <text x="654" y="522" class="text">RX Total:  8.1 GB</text>
+  <text x="654" y="558" class="text">TX Total:  269.7 MB</text>
+  <text x="654" y="594" class="text">RX Rate:   1.8 MB/s</text>
+  <text x="654" y="630" class="text">TX Rate:   142.0 KB/s</text>
+
+  <text x="72" y="704" class="muted">Press q or Ctrl-C to exit</text>
+</svg>
