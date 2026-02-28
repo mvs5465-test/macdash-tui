@@ -2,7 +2,7 @@
 
 `macdash-tui` is a small terminal dashboard for macOS. Run it, get a live full-screen overview, and press `Ctrl-C` or `q` to drop back to your shell.
 
-![macdash-tui screenshot](assets/macdash-screenshot.svg)
+![macdash-tui screenshot](assets/macdash-screenshot.png)
 
 ## What it shows
 
